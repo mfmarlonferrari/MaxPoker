@@ -16,7 +16,7 @@ class Bet(object):
             else:
                 print 'Bet amount is not enough'
         else:
-            print "Player doesn't have the funds"
+            print "No funds"
         return False
 
     def moveFunds(self, game):

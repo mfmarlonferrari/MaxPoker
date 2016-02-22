@@ -101,11 +101,11 @@ class GUI(object):
 
         self.smallCardsImgs = []
         for i in range(53): # 53 = back of card
-            self.smallCardsImgs.append(self.loadImage('smallcards/'+str(i)+'.gif'))
+            self.smallCardsImgs.append(self.loadImage('smallcards/'+str(i)+'.png'))
 
         self.bigCardsImgs = []
         for i in range(52):
-            self.bigCardsImgs.append(self.loadImage('bigcards/'+str(i)+'.gif'))
+            self.bigCardsImgs.append(self.loadImage('bigcards/'+str(i)+'.png'))
 
     # canvas labels - initial drawing
     def drawCanvasLabels(self):

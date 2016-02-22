@@ -9,7 +9,7 @@ Servidor e cliente de Poker Texas Holdem No limit
 
     python server.py <quantidade minima de jogadores>
 
-#### Client usage:
+#### Cliente:
 
     python client.py <nome de usuario> <Ip do servidor>
     
