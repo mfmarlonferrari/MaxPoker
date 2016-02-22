@@ -1,17 +1,18 @@
-PokerNight
+MaxPoker
 ==========
 
-A Poker Server/Client Game
+Servidor e cliente de Poker Texas Holdem No limit
 
 
 
-#### Server usage:
+#### Servidor:
 
-    python server.py <noOfPlayers>
+    python server.py <quantidade minima de jogadores>
 
 #### Client usage:
 
-    python client.py <yourName> <serverAddress>
+    python client.py <nome de usuario> <Ip do servidor>
     
-### Screenshot:
-http://i.imgur.com/hYB32Sj.png
+### Créditos:
+Baseado nos trabalhos do PokerNight disponível em
+https://github.com/JackShannon/PokerNight
